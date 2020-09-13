@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="softwaretestingmaterial" parallel="methods">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <!--listener class-name="org.uncommons.reportng.JUnitXMLReporter"/-->
+    </listeners>
+    <test name="testngProjectAssesmentTest">
+        <classes>
+            <class name="testNGSeleniumProjectAssignment.VerifytheWebsiteTitle_Act1" />
+            <class name="testNGSeleniumProjectAssignment.VerifytheWebsiteHeading_Act2" />
+            <class name="testNGSeleniumProjectAssignment.VerifytheTitleoftheFirstInfobox_Act3" />
+            <class name="testNGSeleniumProjectAssignment.VerifyTitlesecondmostPopularCourse_Act4" />
+            <class name="testNGSeleniumProjectAssignment.NavigatetotheMyAccountPage_Act5" />
+            <class name="testNGSeleniumProjectAssignment.NavigatetotheMyAccountPage_Act6" />
+            <class name="testNGSeleniumProjectAssignment.CounttheNumberofCoursesinAllCourses_Act7" />
+            <class name="testNGSeleniumProjectAssignment.ContacttheAdmin_Act8" />
+            <class name="testNGSeleniumProjectAssignment.CompleteSimpleLesson_Act9" />
+        </classes>
+    </test>
+</suite>
